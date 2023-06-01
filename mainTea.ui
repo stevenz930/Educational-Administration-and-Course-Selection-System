@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>830</width>
+    <height>620</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>教务选课系统-教师界面</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="mainPage">
+       <attribute name="title">
+        <string>主页</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QPushButton" name="buttonRefresh">
+          <property name="text">
+           <string>刷新</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QListWidget" name="mainInfoList"/>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="teachInfoPage">
+       <attribute name="title">
+        <string>授课信息</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout">
+        <item row="1" column="0">
+         <widget class="QTableWidget" name="teachInfoTable">
+          <attribute name="horizontalHeaderDefaultSectionSize">
+           <number>190</number>
+          </attribute>
+          <attribute name="horizontalHeaderMinimumSectionSize">
+           <number>30</number>
+          </attribute>
+          <attribute name="verticalHeaderDefaultSectionSize">
+           <number>40</number>
+          </attribute>
+          <attribute name="verticalHeaderMinimumSectionSize">
+           <number>30</number>
+          </attribute>
+          <row>
+           <property name="text">
+            <string>1</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>2</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>3</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>4</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>5</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>6</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>7</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>8</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>10</string>
+           </property>
+          </row>
+          <column>
+           <property name="text">
+            <string>课程号</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>课程名</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>时间</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>地点</string>
+           </property>
+          </column>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <widget class="QPushButton" name="pushButton_2">
+          <property name="text">
+           <string>刷新</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="timeTablePage">
+       <attribute name="title">
+        <string>时间表</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_3">
+        <item row="0" column="0">
+         <widget class="QTableWidget" name="timeTable">
+          <property name="rowCount">
+           <number>12</number>
+          </property>
+          <property name="columnCount">
+           <number>7</number>
+          </property>
+          <attribute name="horizontalHeaderDefaultSectionSize">
+           <number>100</number>
+          </attribute>
+          <attribute name="horizontalHeaderMinimumSectionSize">
+           <number>30</number>
+          </attribute>
+          <attribute name="verticalHeaderDefaultSectionSize">
+           <number>40</number>
+          </attribute>
+          <row>
+           <property name="text">
+            <string>8:30-9:15</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>9:25-10:10</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>10:30-11:15</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>11:25-12:10</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string/>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>14:00-14:45</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>14:55-15:40</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>15:50-16:35</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>16:45-17:30</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>18:30-19:15</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>19:25-20:10</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>20:20-21:05</string>
+           </property>
+          </row>
+          <column>
+           <property name="text">
+            <string>MON</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>TUE</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>WED</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>THU</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>FRI</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>SAT</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>SUN</string>
+           </property>
+          </column>
+          <item row="0" column="0">
+           <property name="text">
+            <string/>
+           </property>
+          </item>
+          <item row="0" column="1">
+           <property name="text">
+            <string/>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>830</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>操作</string>
+    </property>
+    <addaction name="actionLogin"/>
+    <addaction name="actionExit"/>
+   </widget>
+   <widget class="QMenu" name="menuAbout">
+    <property name="title">
+     <string>关于</string>
+    </property>
+    <addaction name="actionAbout"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuAbout"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionExit">
+   <property name="text">
+    <string>退出</string>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="text">
+    <string>关于</string>
+   </property>
+  </action>
+  <action name="actionLogin">
+   <property name="text">
+    <string>登录</string>
+   </property>
+  </action>
+  <action name="actionRegister">
+   <property name="text">
+    <string>注册</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>UILogin</class>
+ <widget class="QMainWindow" name="UILogin">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>320</width>
+    <height>200</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>教务选课系统-登录界面</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="currentIndex">
+       <number>2</number>
+      </property>
+      <widget class="QWidget" name="student">
+       <attribute name="title">
+        <string>学生</string>
+       </attribute>
+       <widget class="QPushButton" name="buttonLoginStu">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>120</y>
+          <width>75</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>登录</string>
+        </property>
+       </widget>
+       <widget class="QWidget" name="layoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>20</y>
+          <width>191</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayoutStu">
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayoutMsgStu">
+           <item>
+            <widget class="QLabel" name="acMsgStu">
+             <property name="text">
+              <string>账号</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="pwdMsgStu">
+             <property name="text">
+              <string>密码</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayoutStu">
+           <item>
+            <widget class="QLineEdit" name="acStu"/>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="pwdStu"/>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="teacher">
+       <attribute name="title">
+        <string>教师</string>
+       </attribute>
+       <widget class="QWidget" name="layoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>20</y>
+          <width>191</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayoutTea">
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayoutMsgTea">
+           <item>
+            <widget class="QLabel" name="acMsgTea">
+             <property name="text">
+              <string>账号</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="pwdMsgTea">
+             <property name="text">
+              <string>密码</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayoutTea">
+           <item>
+            <widget class="QLineEdit" name="acTea"/>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="pwdTea"/>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QPushButton" name="buttonLoginTea">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>120</y>
+          <width>75</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>登录</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="admin">
+       <attribute name="title">
+        <string>管理员</string>
+       </attribute>
+       <widget class="QWidget" name="layoutWidget_2">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>20</y>
+          <width>191</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayoutAdm">
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayoutMsgAdm">
+           <item>
+            <widget class="QLabel" name="acMsgAdm">
+             <property name="text">
+              <string>账号</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="pwdMsgAdm">
+             <property name="text">
+              <string>密码</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayoutAdm">
+           <item>
+            <widget class="QLineEdit" name="acAdm"/>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="pwdAdm"/>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QPushButton" name="buttonLoginAdm">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>120</y>
+          <width>75</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>登录</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
